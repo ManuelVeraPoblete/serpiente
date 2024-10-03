@@ -11,6 +11,7 @@ const getRandomCoordinates = () => {
   return [x, y];
 }
 
+
 const App = () => {
   const [snakeDots, setSnakeDots] = useState([[0, 0], [2, 0]]);
   const [food, setFood] = useState(getRandomCoordinates());
